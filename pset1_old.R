@@ -1,0 +1,23 @@
+# HW1 Question 3.1
+
+lamb1 = rpois(10000, 1)
+lamb2 = rpois(10000,2)
+lamb3 = rpois(10000,3)
+lamb5 = rpois(10000,5)
+lamb10 = rpois(10000,10)
+lamb15 = rpois(10000,15)
+lamb20 = rpois(10000,20)
+lamb50 = rpois(10000,50)
+lamb100 = rpois(10000,100)
+lamb1000 = rpois(10000,1000)
+
+hist(lamb1)
+hist(lamb2)
+hist(lamb3)
+hist(lamb5)
+hist(lamb10)
+hist(lamb15)
+hist(lamb20)
+hist(lamb50, 25)
+hist(lamb100, 25)
+hist(lamb1000, 25)
