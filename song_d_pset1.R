@@ -9,4 +9,4 @@ for (num in num_lst)
   hist(get(paste('lamb', num, sep='')), 25)
 }
 
-#test
+#test2
